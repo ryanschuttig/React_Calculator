@@ -1,3 +1,5 @@
+import "./styles.css";
+
 function App() {
   return (
     // using CSS Grid for layout
@@ -8,7 +10,7 @@ function App() {
       </div>
       {/* AC button spans two columns*/}
       <button className="span-two">AC</button>
-      <button>Delete</button>
+      <button>DEL</button>
       <button>÷</button>
       <button>1</button>
       <button>2</button>
